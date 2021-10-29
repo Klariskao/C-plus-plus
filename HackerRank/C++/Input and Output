@@ -1,0 +1,18 @@
+// Solution of C++ challenge on HackerRank
+// Input and Output
+// Found at https://www.hackerrank.com/challenges/cpp-input-and-output/problem?isFullScreen=true
+// --------------------------------------------------------------
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int a, b, c;
+int main() {
+    cin >> a >> b >> c;
+    cout << a + b + c;  
+    return 0;
+}

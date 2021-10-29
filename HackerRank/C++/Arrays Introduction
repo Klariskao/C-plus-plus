@@ -1,0 +1,17 @@
+// Solution of C++ challenge on HackerRank
+// Arrays Introduction
+// Found at https://www.hackerrank.com/challenges/arrays-introduction/problem?isFullScreen=true
+// --------------------------------------------------------------
+
+#include <iostream>
+
+int main() {
+    int size,
+    i=0;
+    std::cin>>size;
+    int *arr = new int[size];
+    while(std::cin>>arr[i++]);
+    while(std::cout<<arr[--size]<<' ' && size);
+    delete[] arr;
+    return 0;
+}

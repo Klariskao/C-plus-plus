@@ -1,0 +1,17 @@
+// Solution of C++ challenge on HackerRank
+// For Loop
+// Found at https://www.hackerrank.com/challenges/c-tutorial-for-loop/problem?isFullScreen=true
+// --------------------------------------------------------------
+
+#include <iostream>
+#include <string>
+
+int main() {
+
+    int n, m;
+    std::cin >> n >> m;
+    std::string strArr[] = { "", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+    for (n; n < (m + 1); n++) {
+        std::cout << ((n < 10) ? strArr[n] : ((n % 2 == 0) ? "even" : "odd")) << "\n";
+    }
+}
